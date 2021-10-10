@@ -1,5 +1,6 @@
 package com.italianwithenglish_mobile;
 
+import android.os.Bundle;
 import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {
@@ -12,4 +13,8 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "italianwithenglish_mobile";
   }
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(null);
+}
 }
